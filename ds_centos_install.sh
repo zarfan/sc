@@ -294,3 +294,4 @@ if [ -n "${cm_ip}" ]; then
     sed -i -e "s:cm_ip = 0.0.0.0:cm_ip = ${cm_ip}:g" /etc/aella/aos.yaml
     service aella_conf restart &> /dev/null
 fi
+
